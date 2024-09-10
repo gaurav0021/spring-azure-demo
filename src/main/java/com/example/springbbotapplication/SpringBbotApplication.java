@@ -24,7 +24,7 @@ public class SpringBbotApplication {
         SpringApplication.run(SpringBbotApplication.class, args);
     }
 
-    @GetMapping("/")
+    @GetMapping("/message")
     public String entry() {
         return "Welcomes in Spring Boot Application";
     }
