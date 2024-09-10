@@ -12,8 +12,8 @@
     <artifactId>spring-bbot-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>spring-bbot-application</name>
-    <description>spring-bbot-application</description>
+    <name>spring-boot-application</name>
+    <description>spring-boot-application</description>
     <url/>
     <licenses>
         <license/>

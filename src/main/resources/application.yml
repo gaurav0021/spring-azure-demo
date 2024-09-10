@@ -1,12 +1,10 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://aspirelearning.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-    username: gjoshi
-    password: Smilings9@
+    url: jdbc:sqlserver://az204-gaurav.database.windows.net:1433;database=az204-gaurav;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: gaurav.joshi
+    password: Smilings99@@
   jpa:
     show-sql: true
-    hibernate:
-      ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.SQLServerDialect
+        dialect: org.hibernate.dialect.SQLServer2012Dialect

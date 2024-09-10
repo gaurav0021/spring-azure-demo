@@ -1,7 +1,9 @@
 package com.example.springbbotapplication;
 
-import com.example.springboot.entity.Employee;
-import com.example.springboot.repository.EmployeeRepository;
+import com.example.springbbotapplication.entity.Employee;
+import com.example.springbbotapplication.repository.EmployeeRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +17,7 @@ import java.util.List;
 @RestController
 public class SpringBbotApplication {
 
+	@Autowired
     private EmployeeRepository repo;
 
     public static void main(String[] args) {
